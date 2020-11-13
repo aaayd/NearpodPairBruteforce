@@ -17,7 +17,7 @@ for (i = 0; i < allBoxes.length; i++) {
 	}
 
 	if (i % 2 == 0)
-		console.log('[/] found ' + i / 2 + '/' + allBoxes.length / 2 + ' pairs')
+		console.log('[/] found ' + (i / 2 + 1) + '/' + allBoxes.length / 2 + ' pairs')
 }
 
 console.log("[!] FOUND ALL MATCHING PAIRS!")
